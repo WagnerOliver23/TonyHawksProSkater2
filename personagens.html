@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylesPersonagens/indexPersonagens.css">  
+  <link rel="icon" href="./images/roda_logo.png">
+  <title>THPS2-Personagens</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <!-- Header-->
+  <header>
+    <!-- Games Woc | Códigos & Truques -->
+    <div class="boxOfGamesWocAndCodigosDicas">
+      <div class="boxGamesWoc">
+        <h1><a href="#">Games Woc</a></h1>
+      </div>
+      <div class="boxCodigosDicas">
+        <h2>Códigos &</h2>
+        <h2>Dicas</h2>
+      </div>
+    </div> 
+    <!-- Logo Tony Hawk's P Skater2 -->  
+    <div>
+      <img class="imgTonyHPSLogo" src="./images/Tony_Hawk's_Pro_Skater_2_Logo.png" alt="Logo Tony Hawk's P Skater2">
+    </div>
+    <!-- Info do Criador -->
+    <div class="boxInfoTitleCriadorAndContact">
+      <h2>Info Criador</h2>
+      <ul>
+        <li>
+          <a class="tooltip" href="https://github.com/WagnerOliver23" target="_blank">
+            GitHub
+            <span class="github"></span> 
+          </a>
+        </li>
+        <li>
+          <a class="tooltip" href="https://app.netlify.com/teams/wagneroliveira9819/overview" target="_blank">
+            Netlify
+            <span class="netlify"></span>
+          </a>
+        </li>
+        <li>
+          <a class="tooltip" href="https://www.linkedin.com/in/wagner-oliveira-161a821a9/" target="_blank">
+            LinkedIn
+            <span class="linkedin"></span>
+          </a>
+        </li>
+        <li>
+          <a class="tooltip" href="mailto:devwagneroliver@gmail.com" target="_blank">
+            Gmail
+            <span class="spanGmailAnimation"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- Nav Outros -->
+  <nav>
+  </nav>
+  <!-- Section Conteúdo  ->> | Códigos Section| Recomendados Aside -->
+  <main class="boxCodigosMainAndAsideRecomendados">
+    <!-- PERSONAGENS -->
+    <section id="boxAllPersonagens">
+      <h1 class="tituloPersonagensH1">Personagens Tony Hawk's Pro Skater 2</h1>
+      <!-- Bloco Personagens 1 -->
+      <section class="sectionPersonagens">
+        <div id="tony" class="boxCadaPersonagem imgTony" onclick="tonyHawk()">
+          <p class="nomePersonagens">TONY</p>
+        </div>   
+        <div id="bob" class="boxCadaPersonagem imgBob" onclick="Bob()">
+          <p class="nomePersonagens">BOB</p>
+        </div>
+        <div id="kareem" class="boxCadaPersonagem imgKareem" onclick="Kareem()">
+          <p class="nomePersonagens">KAREEM</p>
+        </div> 
+        <div id="rune" class="boxCadaPersonagem imgRune" onclick="Rune()">
+          <p class="nomePersonagens">Rune</p>
+        </div>   
+      </section>
+      <!-- Bloco Personagens 2 -->
+      <section class="sectionPersonagens">
+        <div id="bucky" class="boxCadaPersonagem imgBucky" onclick="Bucky()">
+          <p class="nomePersonagens">Bucky</p>
+        </div>
+        <div id="chad" class="boxCadaPersonagem imgChad" onclick="Chad()">
+          <p class="nomePersonagens">Chad</p>
+        </div>
+        <div id="andrew" class="boxCadaPersonagem imgAndrew" onclick="Andrew()">
+          <p class="nomePersonagens">Andrew</p>
+        </div>
+        <div id="geoff" class="boxCadaPersonagem imgGeoff" onclick="Geoff()">
+          <p class="nomePersonagens">Geoff</p>
+        </div>
+      </section>
+      <!-- Bloco Personagens 3 -->
+      <section class="sectionPersonagens">
+        <div id="eric" class="boxCadaPersonagem imgEric" onclick="Eric()">
+          <p class="nomePersonagens">Eric</p>
+        </div>
+        <div id="steve" class="boxCadaPersonagem imgSteve" onclick="Steve()">
+          <p class="nomePersonagens">Steve</p>
+        </div>
+        <div id="elissa" class="boxCadaPersonagem imgElissa" onclick="Elissa()">
+          <p class="nomePersonagens">Elissa</p>
+        </div>
+        <div id="jamie" class="boxCadaPersonagem imgJamie" onclick="Jamie()">
+          <p class="nomePersonagens">Jamie</p>
+        </div>
+      </section>
+      <!-- Bloco Personagens 4 -->
+      <section class="sectionPersonagens">
+        <div id="rodney" class="boxCadaPersonagem imgRodney" onclick="Rodney()">
+          <p class="nomePersonagens">Rodney</p>
+        </div>
+        <div id="oficial" class="boxCadaPersonagem imgOficial" onclick="OficialChar()">
+          <p class="nomePersonagens">Oficial</p>
+        </div>
+        <div id="custom" class="boxCadaPersonagem imgCarrera" onclick="CustomChar()">
+          <p class="nomePersonagens">Custom</p>
+        </div>
+        <div id="spider" class="boxCadaPersonagem imgSpider" onclick="SpiderMan()">
+          <p class="nomePersonagens">Spider-Man</p>
+        </div>
+      </section>
+    </section>
+
+    <section id='sectionInformacaoPersonagens'>
+      <p> Clique na foto de cada <strong>personagem</strong> para
+        <strong>Informações</strong> do mesmo como:
+        <br>
+        <strong>
+        Flip Tricks| Grab Tricks| Lip Tricks| Especiais
+        <br>
+        Sound Track | Movie<br>
+      </strong>
+      </p>
+      <div id="boxInformacoesPersonagens">  
+        <h2 class="textInStrong" id="nomePersonagem"></h2>
+        <span id="imgPersonagem"></span>
+        <p class="textInStrong" id="nascimento"></p>
+        <p class="textInStrong" id="idade"></p>
+        <p class="textInStrong" id="nacionalidade"></p>
+        <p class="textInStrong" id="cidade"></p>
+        <p class="textInStrong" id="paisRepresenta"></p>
+        <span id="imgBandeiraRepresenta"></span>
+        <p class="textInStrong" id="altura"></p>
+        <p class="textInStrong" id="modalidade"></p>
+        <!-- Flip Tricks -->
+        <h2 id="flipTricks"></h2>
+
+        <p class="textInStrong" id="nomeFlipsTricks"></p>
+        <span id="flipTricksBotoesImg"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks2"></p>
+        <span id="flipTricksBotoesImg2"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks3"></p>
+        <span id="flipTricksBotoesImg3"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks4"></p>
+        <span id="flipTricksBotoesImg4"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks5"></p>
+        <span id="flipTricksBotoesImg5"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks6"></p>
+        <span id="flipTricksBotoesImg6"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks7"></p>
+        <span id="flipTricksBotoesImg7"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks8"></p>
+        <span id="flipTricksBotoesImg8"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks9"></p>
+        <span id="flipTricksBotoesImg9"></span>
+
+        <p class="textInStrong" id="nomeFlipsTricks10"></p>
+        <span id="flipTricksBotoesImg10"></span>
+
+        <!-- Grab Tricks -->
+        <h2 id="grabTricks"></h2>
+
+        <p class="textInStrong" id="nomeGrabTricks"></p>
+        <span id="grabTricksBotoesImg"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks2"></p>
+        <span id="grabTricksBotoesImg2"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks3"></p>
+        <span id="grabTricksBotoesImg3"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks4"></p>
+        <span id="grabTricksBotoesImg4"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks5"></p>
+        <span id="grabTricksBotoesImg5"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks6"></p>
+        <span id="grabTricksBotoesImg6"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks7"></p>
+        <span id="grabTricksBotoesImg7"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks8"></p>
+        <span id="grabTricksBotoesImg8"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks9"></p>
+        <span id="grabTricksBotoesImg9"></span>
+
+        <p class="textInStrong" id="nomeGrabTricks10"></p>
+        <span id="grabTricksBotoesImg10"></span>
+
+        <!-- Grab Tricks -->
+        <h2 id="lipTricks"></h2>
+
+        <p class="textInStrong" id="nomeLipTricks"></p>
+        <span id="lipTricksBotoesImg"></span>
+
+        <p class="textInStrong" id="nomeLipTricks2"></p>
+        <span id="lipTricksBotoesImg2"></span>
+
+        <p class="textInStrong" id="nomeLipTricks3"></p>
+        <span id="lipTricksBotoesImg3"></span>
+
+        <p class="textInStrong" id="nomeLipTricks4"></p>
+        <span id="lipTricksBotoesImg4"></span>
+
+        <!-- Especiais -->
+        <h2 id="especiais"></h2>
+          
+        <p class="textInStrong" id="nomeEspecias"></p>
+        <span id="especiaisBotoesImg"></span>
+        <p class="textInStrong" id="nomeEspecias2"></p>
+
+        <span id="especiaisBotoesImg2"></span>
+
+        <p class="textInStrong" id="nomeEspecias3"></p>
+        <span id="especiaisBotoesImg3"></span> 
+        <br><br>  
+        <a class="textInStrong" id="up" onclick="Up()" href="#boxAllPersonagens"></a>
+      </div>
+    </section>
+  </main>
+
+  <script src="./scriptsPersonagens/scriptPersonagemTony.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemBob.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemKareem.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemRune.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemBucky.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemChad.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemAndrew.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemGeoff.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemEric.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemSteve.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemElissa.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemJamie.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemRodney.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemOficial.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemCustom.js"></script>
+  <script src="./scriptsPersonagens/scriptPersonagemSpiderMan.js"></script>
+</body>
+</html>

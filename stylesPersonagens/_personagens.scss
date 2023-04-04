@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+a{
+  text-decoration: none;
+}
+#boxAllPersonagens{
+  background-color: #888;
+  height: 650px;
+  width: 97%;
+  margin: auto;
+  padding: 8px;
+  border-radius: 10px;
+}
+  .tituloPersonagensH1{ 
+    color: rgb(243, 163, 14);
+    text-shadow: 1px 1px 3px red;
+    text-align: center;
+    font-size: 35px;
+  }
+    .sectionPersonagens{
+      display: grid;
+      grid-auto-flow: column;
+      height: 120px;
+      width: 25%;
+      margin: auto;
+      margin-bottom: 5px;
+      padding: 8px;
+      border-radius: 6px;
+      justify-content: space-around;
+    }
+        /* Filhas do Grid*/
+        .boxCadaPersonagem{
+          background-color: black;
+          height: 100px;
+          width: 100px;
+          margin-bottom: 5px;
+          margin-right: 6px;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: ease-in-out 500ms;
+        }
+            .boxCadaPersonagem:hover{
+              opacity: 0.9;
+            } 
+        /* Bloco Chars 1*/
+        .imgTony{
+          background-image: url("../imagesPersonagens/tonyhawk_char.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgBob{
+          background-image: url("../imagesPersonagens/BobBurnquist.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgKareem{
+          background-image: url("../imagesPersonagens/kareemCampbell.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgRune{
+          background-image: url("../imagesPersonagens/RuneGlifberg.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        /* Bloco Chars 2*/
+        .imgBucky{
+          background-image: url("../imagesPersonagens/buckylasek_char.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgChad{
+          background-image: url("../imagesPersonagens/Chad_Muska.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgAndrew{
+          background-image: url("../imagesPersonagens/andrew.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgGeoff{
+          background-image: url("../imagesPersonagens/GeoffRowley.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        /* Bloco Chars 3*/
+        .imgEric{
+          background-image: url("../imagesPersonagens/erickoston.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgSteve{
+          background-image: url("../imagesPersonagens/Steve_Caballero.jpg.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgElissa{
+          background-image: url("../imagesPersonagens/ElissaSteamer.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgJamie{
+          background-image: url("../imagesPersonagens/JamieThomas.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        } 
+        /* Bloco Chars 4*/
+        .imgRodney{
+          background-image: url("../imagesPersonagens/RodneyMullen.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgOficial{
+          background-image: url("../imagesPersonagens/official_dick_char.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgCarrera{
+          background-image: url("../imagesPersonagens/custom_char.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .imgSpider{
+          background-image: url("../imagesPersonagens/spiderman_char.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+          .nomePersonagens{
+            margin-top: 100px;
+            color: orange;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 2px 0 2px 0;
+          }
+#sectionInformacaoPersonagens{
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+    #sectionInformacaoPersonagens p{
+      color: lightblue;
+      font-size: 22px;
+    }
+    #sectionInformacaoPersonagens h2{
+      color: rgb(243, 163, 14);
+      text-shadow: 1px 1px 3px red;
+      font-size: 30px;
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+
+        #boxInformacoesPersonagens{
+          width: 60%;
+          margin: auto;
+          border-radius: 10px;
+          justify-content: center;
+        }
+            .textInStrong{
+              font-family: 'Vollkorn', serif;
+            }
+            #up{
+              bottom:10px;
+              position: sticky;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 22px;
+              color: whitesmoke;
+              width: 80px;
+              margin-left: 100%;
+              background-color: #000;
+              color: rgb(243, 163, 14);
+              text-shadow: 1px 1px 3px red;; 
+              padding: 10px;     
+              border-radius: 10px;
+            }
