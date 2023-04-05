@@ -1,4 +1,7 @@
 function tonyHawk(){
+  
+  var allManobrasUppercase = window.document.getElementById('allManobrasUppercase')
+  allManobrasUppercase.style.background = '#000'
 
   var nomePersonagem = window.document.getElementById('nomePersonagem')
   nomePersonagem.innerHTML = 'Anthony Frank Hawk<br>(<strong>Tony Hawk</strong>)'
@@ -29,8 +32,18 @@ function tonyHawk(){
 
   var modalidade = window.document.getElementById('modalidade')
   modalidade.innerHTML = '<strong>Modalidade:</strong> Vertical'
+  modalidade.style.marginBottom='50px';
+
+  var statsHabilidades = window.document.getElementById('statsHabilidades')
+  statsHabilidades.innerHTML = '<strong>Stats | Habilidades:</strong>'
+
+  var stats = window.document.getElementById('imgStats')
+  stats.innerHTML = "<img src = './imagesStatsPersonagens/tonyStats.png' width='300' height='320'>";
 
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+  var manobrasTitulo = window.document.getElementById('manobrasTitulo')
+  manobrasTitulo.innerHTML = ('Manobras:')
 
   /* Título Flip Tricks*/
   var flipTricks = window.document.getElementById('flipTricks')
@@ -272,7 +285,5 @@ function tonyHawk(){
   up.innerHTML = 'Up'
 
 }
-
-
 
 /* section id =  informacoesDosPersonagens */

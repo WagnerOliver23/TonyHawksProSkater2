@@ -1,5 +1,8 @@
 function Bob(){
 
+  var allManobrasUppercase = window.document.getElementById('allManobrasUppercase')
+  allManobrasUppercase.style.background = '#000'
+
   var nomePersonagem = window.document.getElementById('nomePersonagem')
   nomePersonagem.innerHTML = 'Bob Dean Silva Burnquist<br>(<strong>Bob Burnquist</strong>)'
 
@@ -29,8 +32,18 @@ function Bob(){
 
   var modalidade = window.document.getElementById('modalidade')
   modalidade.innerHTML = '<strong>Modalidade:</strong> Vertical | MegaRamp'
+  modalidade.style.marginBottom='50px';
+
+  var statsHabilidades = window.document.getElementById('statsHabilidades')
+  statsHabilidades.innerHTML = '<strong>Stats | Habilidades:</strong>'
+
+  var stats = window.document.getElementById('imgStats')
+  stats.innerHTML = "<img src = './imagesStatsPersonagens/bobStats.png' width='300' height='320'>";
 
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+  var manobrasTitulo = window.document.getElementById('manobrasTitulo')
+  manobrasTitulo.innerHTML = ('Manobras:')
 
   /* Título Flip Tricks*/
   var flipTricks = window.document.getElementById('flipTricks')

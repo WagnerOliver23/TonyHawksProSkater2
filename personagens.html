@@ -66,65 +66,65 @@
   <main class="boxCodigosMainAndAsideRecomendados">
     <!-- PERSONAGENS -->
     <section id="boxAllPersonagens">
-      <h1 class="tituloPersonagensH1">Personagens Tony Hawk's Pro Skater 2</h1>
+      <h1 class="tituloPersonagensH1">Personagens: Tony Hawk's Pro Skater 2</h1>
       <!-- Bloco Personagens 1 -->
       <section class="sectionPersonagens">
         <div id="tony" class="boxCadaPersonagem imgTony" onclick="tonyHawk()">
-          <p class="nomePersonagens">TONY</p>
+          <p class="nomePersonagens">TONY<br>Hawk</p>
         </div>   
         <div id="bob" class="boxCadaPersonagem imgBob" onclick="Bob()">
-          <p class="nomePersonagens">BOB</p>
+          <p class="nomePersonagens">BOB Burnquist</p>
+        </div>
+        <div id="steve" class="boxCadaPersonagem imgSteve" onclick="Steve()">
+          <p class="nomePersonagens">Steve Caballero</p>
         </div>
         <div id="kareem" class="boxCadaPersonagem imgKareem" onclick="Kareem()">
-          <p class="nomePersonagens">KAREEM</p>
-        </div> 
-        <div id="rune" class="boxCadaPersonagem imgRune" onclick="Rune()">
-          <p class="nomePersonagens">Rune</p>
-        </div>   
+          <p class="nomePersonagens">KAREEM Campbell</p>
+        </div>        
       </section>
       <!-- Bloco Personagens 2 -->
       <section class="sectionPersonagens">
+        <div id="rune" class="boxCadaPersonagem imgRune" onclick="Rune()">
+          <p class="nomePersonagens">Rune Glifberg</p>
+        </div>
+        <div id="eric" class="boxCadaPersonagem imgEric" onclick="Eric()">
+          <p class="nomePersonagens">Eric Koston</p>
+        </div>
         <div id="bucky" class="boxCadaPersonagem imgBucky" onclick="Bucky()">
-          <p class="nomePersonagens">Bucky</p>
+          <p class="nomePersonagens">Bucky Lasek</p>
         </div>
-        <div id="chad" class="boxCadaPersonagem imgChad" onclick="Chad()">
-          <p class="nomePersonagens">Chad</p>
-        </div>
-        <div id="andrew" class="boxCadaPersonagem imgAndrew" onclick="Andrew()">
-          <p class="nomePersonagens">Andrew</p>
-        </div>
-        <div id="geoff" class="boxCadaPersonagem imgGeoff" onclick="Geoff()">
-          <p class="nomePersonagens">Geoff</p>
-        </div>
+        <div id="rodney" class="boxCadaPersonagem imgRodney" onclick="Rodney()">
+          <p class="nomePersonagens">Rodney Mullen</p>
+        </div> 
       </section>
       <!-- Bloco Personagens 3 -->
       <section class="sectionPersonagens">
-        <div id="eric" class="boxCadaPersonagem imgEric" onclick="Eric()">
-          <p class="nomePersonagens">Eric</p>
+        <div id="chad" class="boxCadaPersonagem imgChad" onclick="Chad()">
+          <p class="nomePersonagens">Chad Muska</p>
         </div>
-        <div id="steve" class="boxCadaPersonagem imgSteve" onclick="Steve()">
-          <p class="nomePersonagens">Steve</p>
+        <div id="andrew" class="boxCadaPersonagem imgAndrew" onclick="Andrew()">
+          <p class="nomePersonagens">Andrew Reynolds</p>
         </div>
+        <div id="geoff" class="boxCadaPersonagem imgGeoff" onclick="Geoff()">
+          <p class="nomePersonagens">Geoff Rowley</p>
+        </div>     
         <div id="elissa" class="boxCadaPersonagem imgElissa" onclick="Elissa()">
-          <p class="nomePersonagens">Elissa</p>
-        </div>
-        <div id="jamie" class="boxCadaPersonagem imgJamie" onclick="Jamie()">
-          <p class="nomePersonagens">Jamie</p>
+          <p class="nomePersonagens">Elissa Steamer</p>
         </div>
       </section>
       <!-- Bloco Personagens 4 -->
       <section class="sectionPersonagens">
-        <div id="rodney" class="boxCadaPersonagem imgRodney" onclick="Rodney()">
-          <p class="nomePersonagens">Rodney</p>
+        <div id="jamie" class="boxCadaPersonagem imgJamie" onclick="Jamie()">
+          <p class="nomePersonagens">Jamie Thomas</p>
         </div>
         <div id="oficial" class="boxCadaPersonagem imgOficial" onclick="OficialChar()">
-          <p class="nomePersonagens">Oficial</p>
+          <p class="nomePersonagens">Oficial Dick</p>
         </div>
         <div id="custom" class="boxCadaPersonagem imgCarrera" onclick="CustomChar()">
-          <p class="nomePersonagens">Custom</p>
+          <p class="nomePersonagens">Private Carrera</p>
         </div>
         <div id="spider" class="boxCadaPersonagem imgSpider" onclick="SpiderMan()">
-          <p class="nomePersonagens">Spider-Man</p>
+          <p class="nomePersonagens">Spider Man</p>
         </div>
       </section>
     </section>
@@ -137,7 +137,7 @@
         Flip Tricks| Grab Tricks| Lip Tricks| Especiais
         <br>
         Sound Track | Movie<br>
-      </strong>
+        </strong>
       </p>
       <div id="boxInformacoesPersonagens">  
         <h2 class="textInStrong" id="nomePersonagem"></h2>
@@ -150,100 +150,110 @@
         <span id="imgBandeiraRepresenta"></span>
         <p class="textInStrong" id="altura"></p>
         <p class="textInStrong" id="modalidade"></p>
-        <!-- Flip Tricks -->
-        <h2 id="flipTricks"></h2>
+        <h2 id="statsHabilidades"></h2>
+        <span id="imgStats"></span>
+        <h2 id="manobrasTitulo"></h2>
+        <div id="allManobrasUppercase">
+          <div>
+            <!-- Flip Tricks -->
+            <h2 id="flipTricks"></h2>
 
-        <p class="textInStrong" id="nomeFlipsTricks"></p>
-        <span id="flipTricksBotoesImg"></span>
+            <p class="textInStrong" id="nomeFlipsTricks"></p>
+            <span id="flipTricksBotoesImg"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks2"></p>
-        <span id="flipTricksBotoesImg2"></span>
+            <p class="textInStrong" id="nomeFlipsTricks2"></p>
+            <span id="flipTricksBotoesImg2"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks3"></p>
-        <span id="flipTricksBotoesImg3"></span>
+            <p class="textInStrong" id="nomeFlipsTricks3"></p>
+            <span id="flipTricksBotoesImg3"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks4"></p>
-        <span id="flipTricksBotoesImg4"></span>
+            <p class="textInStrong" id="nomeFlipsTricks4"></p>
+            <span id="flipTricksBotoesImg4"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks5"></p>
-        <span id="flipTricksBotoesImg5"></span>
+            <p class="textInStrong" id="nomeFlipsTricks5"></p>
+            <span id="flipTricksBotoesImg5"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks6"></p>
-        <span id="flipTricksBotoesImg6"></span>
+            <p class="textInStrong" id="nomeFlipsTricks6"></p>
+            <span id="flipTricksBotoesImg6"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks7"></p>
-        <span id="flipTricksBotoesImg7"></span>
+            <p class="textInStrong" id="nomeFlipsTricks7"></p>
+            <span id="flipTricksBotoesImg7"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks8"></p>
-        <span id="flipTricksBotoesImg8"></span>
+            <p class="textInStrong" id="nomeFlipsTricks8"></p>
+            <span id="flipTricksBotoesImg8"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks9"></p>
-        <span id="flipTricksBotoesImg9"></span>
+            <p class="textInStrong" id="nomeFlipsTricks9"></p>
+            <span id="flipTricksBotoesImg9"></span>
 
-        <p class="textInStrong" id="nomeFlipsTricks10"></p>
-        <span id="flipTricksBotoesImg10"></span>
+            <p class="textInStrong" id="nomeFlipsTricks10"></p>
+            <span id="flipTricksBotoesImg10"></span>
+          </div>
+          <div>
+            <!-- Grab Tricks -->
+            <h2 id="grabTricks"></h2>
 
-        <!-- Grab Tricks -->
-        <h2 id="grabTricks"></h2>
+            <p class="textInStrong" id="nomeGrabTricks"></p>
+            <span id="grabTricksBotoesImg"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks"></p>
-        <span id="grabTricksBotoesImg"></span>
+            <p class="textInStrong" id="nomeGrabTricks2"></p>
+            <span id="grabTricksBotoesImg2"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks2"></p>
-        <span id="grabTricksBotoesImg2"></span>
+            <p class="textInStrong" id="nomeGrabTricks3"></p>
+            <span id="grabTricksBotoesImg3"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks3"></p>
-        <span id="grabTricksBotoesImg3"></span>
+            <p class="textInStrong" id="nomeGrabTricks4"></p>
+            <span id="grabTricksBotoesImg4"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks4"></p>
-        <span id="grabTricksBotoesImg4"></span>
+            <p class="textInStrong" id="nomeGrabTricks5"></p>
+            <span id="grabTricksBotoesImg5"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks5"></p>
-        <span id="grabTricksBotoesImg5"></span>
+            <p class="textInStrong" id="nomeGrabTricks6"></p>
+            <span id="grabTricksBotoesImg6"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks6"></p>
-        <span id="grabTricksBotoesImg6"></span>
+            <p class="textInStrong" id="nomeGrabTricks7"></p>
+            <span id="grabTricksBotoesImg7"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks7"></p>
-        <span id="grabTricksBotoesImg7"></span>
+            <p class="textInStrong" id="nomeGrabTricks8"></p>
+            <span id="grabTricksBotoesImg8"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks8"></p>
-        <span id="grabTricksBotoesImg8"></span>
+            <p class="textInStrong" id="nomeGrabTricks9"></p>
+            <span id="grabTricksBotoesImg9"></span>
 
-        <p class="textInStrong" id="nomeGrabTricks9"></p>
-        <span id="grabTricksBotoesImg9"></span>
+            <p class="textInStrong" id="nomeGrabTricks10"></p>
+            <span id="grabTricksBotoesImg10"></span>
+          </div>
+          <div>
+            <!-- Lip Tricks -->
+            <h2 id="lipTricks"></h2>
 
-        <p class="textInStrong" id="nomeGrabTricks10"></p>
-        <span id="grabTricksBotoesImg10"></span>
+            <p class="textInStrong" id="nomeLipTricks"></p>
+            <span id="lipTricksBotoesImg"></span>
 
-        <!-- Grab Tricks -->
-        <h2 id="lipTricks"></h2>
+            <p class="textInStrong" id="nomeLipTricks2"></p>
+            <span id="lipTricksBotoesImg2"></span>
 
-        <p class="textInStrong" id="nomeLipTricks"></p>
-        <span id="lipTricksBotoesImg"></span>
+            <p class="textInStrong" id="nomeLipTricks3"></p>
+            <span id="lipTricksBotoesImg3"></span>
 
-        <p class="textInStrong" id="nomeLipTricks2"></p>
-        <span id="lipTricksBotoesImg2"></span>
+            <p class="textInStrong" id="nomeLipTricks4"></p>
+            <span id="lipTricksBotoesImg4"></span>
+          </div>
+          <!-- Especiais -->
+          <div>
+            <h2 id="especiais"></h2>
+              
+            <p class="textInStrong" id="nomeEspecias"></p>
+            <span id="especiaisBotoesImg"></span>
+            <p class="textInStrong" id="nomeEspecias2"></p>
 
-        <p class="textInStrong" id="nomeLipTricks3"></p>
-        <span id="lipTricksBotoesImg3"></span>
+            <span id="especiaisBotoesImg2"></span>
 
-        <p class="textInStrong" id="nomeLipTricks4"></p>
-        <span id="lipTricksBotoesImg4"></span>
-
-        <!-- Especiais -->
-        <h2 id="especiais"></h2>
-          
-        <p class="textInStrong" id="nomeEspecias"></p>
-        <span id="especiaisBotoesImg"></span>
-        <p class="textInStrong" id="nomeEspecias2"></p>
-
-        <span id="especiaisBotoesImg2"></span>
-
-        <p class="textInStrong" id="nomeEspecias3"></p>
-        <span id="especiaisBotoesImg3"></span> 
-        <br><br>  
-        <a class="textInStrong" id="up" onclick="Up()" href="#boxAllPersonagens"></a>
+            <p class="textInStrong" id="nomeEspecias3"></p>
+            <span id="especiaisBotoesImg3"></span> 
+            <br><br>           
+          </div>
+        </div>
+        <a class="textInStrong" id="up" onclick="Up()" href="#boxAllPersonagens">Up</a>
       </div>
     </section>
   </main>

@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 a{
   text-decoration: none;
 }
 #boxAllPersonagens{
-  background-color: #888;
+  background-color: #000;
   height: 650px;
   width: 97%;
   margin: auto;
   padding: 8px;
   border-radius: 10px;
+  font-family: 'Black Ops One', cursive;
 }
   .tituloPersonagensH1{ 
     color: rgb(243, 163, 14);
@@ -17,13 +19,19 @@ a{
     text-align: center;
     font-size: 35px;
   }
+  #paragrafoInformativoBreve{
+    font-size: 28px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+  }
     .sectionPersonagens{
       display: grid;
       grid-auto-flow: column;
       height: 120px;
       width: 25%;
       margin: auto;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
       padding: 8px;
       border-radius: 6px;
       justify-content: space-around;
@@ -41,7 +49,11 @@ a{
         }
             .boxCadaPersonagem:hover{
               opacity: 0.9;
-            } 
+            }
+        .boxCadaPersonagem .nomePersonagens{
+          font-family: 'Black Ops One', cursive;
+          font-weight: 700;
+        }
         /* Bloco Chars 1*/
         .imgTony{
           background-image: url("../imagesPersonagens/tonyhawk_char.jpg");
@@ -117,9 +129,10 @@ a{
           background-size: cover;
         }
         .imgCarrera{
-          background-image: url("../imagesPersonagens/custom_char.jpg");
+          background-image: url("../imagesPersonagens/pcarrera.jpg");
           background-repeat: no-repeat;
           background-size: cover;
+          background-attachment:scroll;
         }
         .imgSpider{
           background-image: url("../imagesPersonagens/spiderman_char.jpg");
@@ -137,39 +150,41 @@ a{
   text-align: center;
   padding: 10px;
   border-radius: 10px;
-  background-color: black;
-  color: #fff;
-  width: 100%;
+  width: 95%;
+  height: 140px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 110px;
 }
     #sectionInformacaoPersonagens p{
-      color: lightblue;
+      color: rgb(196, 227, 235);
       font-size: 22px;
     }
     #sectionInformacaoPersonagens h2{
       color: rgb(243, 163, 14);
       text-shadow: 1px 1px 3px red;
       font-size: 30px;
-      margin-top: 60px;
-      margin-bottom: 60px;
+      margin-top: 10px;
+      margin-bottom: 20px;
     }
 
         #boxInformacoesPersonagens{
-          width: 60%;
+          width: 73%;
           margin: auto;
           border-radius: 10px;
           justify-content: center;
+        }
+        #boxInformacoesPersonagens #manobrasTitulo{
+          margin-top: 40px;
+          font-size: 35px;
         }
             .textInStrong{
               font-family: 'Vollkorn', serif;
             }
             #up{
-              bottom:10px;
+              bottom:20px;
               position: sticky;
               font-family: Verdana, Geneva, Tahoma, sans-serif;
               font-size: 22px;
-              color: whitesmoke;
               width: 80px;
               margin-left: 100%;
               background-color: #000;
@@ -177,4 +192,17 @@ a{
               text-shadow: 1px 1px 3px red;; 
               padding: 10px;     
               border-radius: 10px;
+              transition: ease-in-out 500ms;
             }
+                #up:hover{
+                  opacity: 0.9;
+                }
+        #boxInformacoesPersonagens #allManobrasUppercase{
+          display: flex;
+          text-transform: uppercase;
+          margin: auto;
+          width: 70%;
+          justify-content:space-between;
+          padding: 15px;
+          border-radius: 10px;
+        }        
