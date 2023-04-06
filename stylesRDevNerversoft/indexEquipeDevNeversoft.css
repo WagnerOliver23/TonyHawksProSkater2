@@ -2,6 +2,7 @@
 /* GITHUB */
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alkatra:wght@600&family=Bitter:wght@500&family=Climate+Crisis&family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Bitter:wght@500&family=Climate+Crisis&family=Inter&family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Anton&family=Bitter:wght@500&family=Climate+Crisis&family=Inter&display=swap");
@@ -636,11 +637,13 @@ a {
 }
 
 #boxAllDevs {
+  position: absolute;
   background-color: #000;
-  height: 650px;
-  width: 97%;
+  height: 910px;
+  width: 34%;
   margin: auto;
-  margin-top: -30px;
+  margin-top: -25px;
+  margin-left: 23.5%;
   padding: 8px;
   border-radius: 10px;
   font-family: "Black Ops One", cursive;
@@ -864,30 +867,18 @@ a {
     background-color: lightblue;
   }
 }
-#sectionListaPersonagens {
-  width: 430px;
-  margin: auto;
-  margin-top: 10px;
-  background-color: #111;
-  border-radius: 10px;
-  padding: 1px 0px 1px 100px;
-  box-sizing: border-box;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-#sectionListaPersonagens ul {
-  list-style-type: none;
-}
-
+/* Bloco com evento DOM */
 #sectionInformacaoDevs {
+  position: absolute;
   text-align: center;
   padding: 10px;
   border-radius: 10px;
-  width: 95%;
-  height: 140px;
+  background-color: transparent;
+  width: 34%;
+  height: 0px;
   margin: auto;
-  margin-top: 1190px;
+  margin-top: -62px;
+  margin-left: 58.5%;
 }
 
 #sectionInformacaoDevs p {
@@ -905,8 +896,7 @@ a {
 }
 
 #boxInfoDosDevs {
-  background-color: #000;
-  width: 90%;
+  width: 89%;
   margin: auto;
   padding: 10px 3% 10px 3%;
   margin-bottom: 10px;
@@ -918,9 +908,9 @@ a {
 }
 
 #boxInformacoesPersonagens {
-  width: 73%;
+  width: 100%;
   margin: auto;
-  margin-top: 0px;
+  margin-top: 25px;
   border-radius: 10px;
   justify-content: center;
 }
@@ -935,12 +925,12 @@ a {
 }
 
 #up {
-  bottom: 20px;
+  bottom: 50px;
   position: sticky;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 22px;
   width: 80px;
-  margin-left: 100%;
+  margin-left: 97%;
   background-color: #000;
   color: rgb(243, 163, 14);
   text-shadow: 1px 1px 3px red;
@@ -956,11 +946,10 @@ a {
 #boxInformacoesPersonagens #allGamesCriados {
   text-align: center;
   margin: auto;
-  width: 70%;
+  width: 80%;
   justify-content: space-between;
   padding: 15px;
   border-radius: 10px;
-  background-color: #000;
   padding: 10px 30px 10px 30px;
 }
 
@@ -981,6 +970,18 @@ a {
 
 #allGamesCriados p {
   margin-top: -20px;
+}
+
+#cheatJogarComOsDevs {
+  position: absolute;
+  margin-top: -800px;
+  margin-left: -65%;
+  width: 55%;
+  box-shadow: 1px 1px 10px rgb(128, 83, 0);
+}
+
+.paragrafosCheat {
+  font-family: "Merriweather", serif;
 }
 
 /*
@@ -1187,4 +1188,327 @@ nav {
   background-color: transparent;
   padding: 0px;
   animation: none;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
+  a {
+    text-decoration: none;
+  }
+  #boxAllDevs {
+    background-color: #000;
+    height: 650px;
+    width: 97%;
+    margin: auto;
+    margin-top: -30px;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: "Black Ops One", cursive;
+  }
+  .tituloDevsH1 {
+    color: rgb(243, 163, 14);
+    text-shadow: 1px 1px 3px red;
+    text-align: center;
+    font-size: 35px;
+  }
+  #paragrafoInformativoBreve {
+    font-size: 28px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+  }
+  .sectionDevs {
+    display: grid;
+    grid-auto-flow: column;
+    height: 120px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    justify-content: space-around;
+  }
+  .cliqueNaImagemDeCadaDev {
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .sectionDevs2 {
+    display: grid;
+    grid-auto-flow: column;
+    height: 120px;
+    width: 12%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    justify-content: space-around;
+  }
+  /* Filhas do Grid*/
+  .boxCadaDev {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+  }
+  .boxCadaDev:hover {
+    opacity: 0.9;
+  }
+  .boxCadaDev .nomeDevs {
+    font-family: "Black Ops One", cursive;
+    font-weight: 700;
+  }
+  /* Bloco Chars 1*/
+  .imgAaron {
+    background-image: url("../imagesDevsNeversoft/aaronCammarata.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgChris {
+    background-image: url("../imagesDevsNeversoft/chrisRausch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgGary {
+    background-image: url("../imagesDevsNeversoft/garyJesdanum.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgJason {
+    background-image: url("../imagesDevsNeversoft/jasonUyeda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Bloco Chars 2*/
+  .imgJoel {
+    background-image: url("../imagesDevsNeversoft/joelJewett.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgJohnny {
+    background-image: url("../imagesDevsNeversoft/johnnyOw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgDarren {
+    background-image: url("../imagesDevsNeversoft/darrenThorne.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgJunki {
+    background-image: url("../imagesDevsNeversoft/junkiSaita.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Bloco Chars 3*/
+  .imgMike {
+    background-image: url("../imagesDevsNeversoft/mick.west.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgNoel {
+    background-image: url("../imagesDevsNeversoft/noelHines.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgNolan {
+    background-image: url("../imagesDevsNeversoft/nolanNelson.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgRalph {
+    background-image: url("../imagesDevsNeversoft/ralphDAmato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Bloco Chars 4*/
+  .imgRyan {
+    background-image: url("../imagesDevsNeversoft/ryanMchmahon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imgScott {
+    background-image: url("../imagesDevsNeversoft/scott.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .nomeDevs {
+    margin-top: 100px;
+    color: rgb(243, 163, 14);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2px 0 2px 0;
+  }
+  #cheatJogarComOsDevs {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #111;
+    width: 415px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px 10px 10px 10px;
+  }
+  #cheatJogarComOsDevs h2 {
+    color: rgb(243, 163, 14);
+    text-shadow: 1px 1px 3px red;
+  }
+  #cheatJogarComOsDevs p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #cheatJogarComOsDevs img {
+    margin-right: 3px;
+    border-radius: 50%;
+    padding: 2px;
+    animation-name: botoes;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes botoes {
+    0% {
+      background-color: lightblue;
+    }
+    20% {
+      background-color: rgb(173, 230, 221);
+    }
+    50% {
+      background-color: rgb(173, 207, 230);
+    }
+    70% {
+      background-color: rgb(213, 230, 173);
+    }
+    90% {
+      background-color: rgb(173, 230, 211);
+    }
+    100% {
+      background-color: lightblue;
+    }
+  }
+  #sectionListaPersonagens {
+    width: 430px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 1px 50px 1px 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  #sectionListaPersonagens p {
+    margin-left: 10%;
+    color: rgb(243, 163, 14);
+    text-shadow: 1px 1px 3px red;
+  }
+  #sectionListaPersonagens ul {
+    list-style-type: none;
+  }
+  #sectionInformacaoDevs {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 95%;
+    height: 140px;
+    margin: auto;
+    margin-top: 1270px;
+  }
+  #sectionInformacaoDevs p {
+    color: rgb(196, 227, 235);
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #sectionInformacaoDevs h2 {
+    color: rgb(243, 163, 14);
+    text-shadow: 1px 1px 3px red;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #boxInfoDosDevs {
+    background-color: #000;
+    width: 95%;
+    margin: auto;
+    padding: 10px 3% 10px 3%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px;
+    box-sizing: border-box;
+  }
+  .liNomeDosDevs {
+    cursor: pointer;
+    transition: ease-in-out 400ms;
+  }
+  .liNomeDosDevs:hover {
+    color: rgb(133, 207, 103);
+  }
+  #boxInformacoesPersonagens {
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  #boxInformacoesPersonagens #manobrasTitulo {
+    margin-top: 40px;
+    font-size: 35px;
+  }
+  .textInStrong {
+    font-family: "Vollkorn", serif;
+  }
+  #up {
+    bottom: 50px;
+    position: sticky;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    width: 80px;
+    margin-left: 97%;
+    background-color: #000;
+    color: rgb(243, 163, 14);
+    text-shadow: 1px 1px 3px red;
+    padding: 10px;
+    border-radius: 10px;
+    transition: ease-in-out 500ms;
+  }
+  #up:hover {
+    opacity: 0.9;
+  }
+  #boxInformacoesPersonagens #allGamesCriados {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #000;
+    padding: 10px 30px 10px 30px;
+  }
+  #boxInformacoesPersonagens a {
+    color: rgb(243, 163, 14);
+    transition: ease-in-out 400ms;
+  }
+  #boxInformacoesPersonagens a:hover {
+    color: rgba(255, 187, 0, 0.938);
+  }
+  #allGamesCriados h3 {
+    font-size: 22px;
+    color: rgb(255, 236, 127);
+    line-height: 30px;
+  }
+  #allGamesCriados p {
+    margin-top: -20px;
+  }
 }/*# sourceMappingURL=indexEquipeDevNeversoft.css.map */

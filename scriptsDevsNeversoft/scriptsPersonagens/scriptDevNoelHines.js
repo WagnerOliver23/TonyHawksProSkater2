@@ -1,279 +1,166 @@
 function Noel(){
 
-  var allManobrasUppercase = window.document.getElementById('allManobrasUppercase')
-  allManobrasUppercase.style.background = '#000'
-
   var nomePersonagem = window.document.getElementById('nomePersonagem')
   nomePersonagem.innerHTML = '<strong>Noel Hines</strong>'
-
-  var nascimento = window.document.getElementById('nascimento')
-  nascimento.innerHTML = '<strong>Nascimento:</strong> 14 de novembro de 1973'
 
   var imgPersonagem = window.document.getElementById('imgPersonagem')
   imgPersonagem.innerHTML = "<img src = './imagesDevsNeversoft/noelHines.jpg' width='150' height='150'>";
 
-  var idade = window.document.getElementById('idade')
-  idade.innerHTML = '<strong>Idade:</strong> 49 anos (2023)'
+  var profissao = window.document.getElementById('profissao')
+  profissao.innerHTML = '<strong>Profissão:<br></strong>Designer de Games<br>'
+
+  var LinkedinAaron = window.document.getElementById('linkedin')
+  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/noel-hines-9a85a5/" target="_blank"><strong>LinkedIn - Noel Hines</strong></a><br>'
+  LinkedinAaron.innerHTML += '<strong>ou</strong><br>'
+  LinkedinAaron.innerHTML += '<a href ="https://www.linkedin.com/in/thenoelhines/" target="_blank"><strong>LinkedIn - Noel Hines</strong></a>'
 
   var nacionalidade = window.document.getElementById('nacionalidade')
-  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong> Norte Americano'
+  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong><br>Inglês ?'
 
   var cidade = window.document.getElementById('cidade')
-  cidade.innerHTML = '<strong>Cidade:</strong> Harlem, Nova Iorque - Eua'
-
-  var paisRepresenta = window.document.getElementById('paisRepresenta')
-  paisRepresenta.innerHTML = '<strong>Representante:</strong> Estados Unidos'
+  cidade.innerHTML = '<strong>Cidade:</strong><br>Kingston-Upon-Hull ?<br>Inglaterra ?'
 
   var imgBandeiraRepresenta = window.document.getElementById('imgBandeiraRepresenta')
-  imgBandeiraRepresenta.innerHTML = "<img src = './imagesBandeiraPaises/eua_bandeira.png' width='100'>";
+  imgBandeiraRepresenta.innerHTML = "<img src = './imagesBandeiraPaises/inglaterra_bandeira.png' width='100'>";
+  imgBandeiraRepresenta.style.marginBottom='50px';
 
-  var modalidade = window.document.getElementById('altura')
-  modalidade.innerHTML = '<strong>Altura:</strong> 1.77 m'
+  var breveInfoDosDevs=window.document.getElementById('breveInfoDosDevs')
+  breveInfoDosDevs.innerHTML= 'Noel Hines é conhecido por MDK (1997), Apocalypse (1998) e Tony Hawks Pro Skater (1999).'
 
-  var modalidade = window.document.getElementById('modalidade')
-  modalidade.innerHTML = '<strong>Modalidade:</strong> Street'
-  modalidade.style.marginBottom='50px';
+  /* Creditos de Desenvolvimento*/
 
-  var statsHabilidades = window.document.getElementById('statsHabilidades')
-  statsHabilidades.innerHTML = '<strong>Stats | Habilidades:</strong>'
+  var jogosCreditados=window.document.getElementById('jogosCreditados')
+  jogosCreditados.innerHTML = '<strong>Alguns Games Creditados:</strong>'
 
-  var stats = window.document.getElementById('imgStats')
-  stats.innerHTML = "<img src = './imagesStatsPersonagens/kareemStats.png' width='300' height='320'>";
+  /* Games Creditados*/
 
-////////////////////////////////////////////////////////////////////////////////////////////
+  /* Game 1 */
+  var jogosCreditados=window.document.getElementById('game1')
+  jogosCreditados.innerHTML = 'Tony Hawks Pro Skater 4 (2002 on GameCube)'
 
-  var manobrasTitulo = window.document.getElementById('manobrasTitulo')
-  manobrasTitulo.innerHTML = ('Manobras:')
-
-  /* Título Flip Tricks*/
-  var flipTricks = window.document.getElementById('flipTricks')
-  flipTricks.innerHTML = 'Flip Tricks<br>'
-  
-  /* Flip Tricks 1 */
-  var nomeFlipsTricks = window.document.getElementById('nomeFlipsTricks')
-  nomeFlipsTricks.innerHTML = '<strong>Pop Shove it</strong>'
-
-  var flipTricksBotoesImg = window.document.getElementById('flipTricksBotoesImg')
-  flipTricksBotoesImg.innerHTML = "<img src='./imagesArrows/seta_cima_laranja.png' width='25'>";
-  flipTricksBotoesImg.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 2 */
-  var nomeFlipsTricks2 = window.document.getElementById('nomeFlipsTricks2')
-  nomeFlipsTricks2.innerHTML = '<strong>Inward HeelFlip</strong>'
-
-  var flipTricksBotoesImg2 = window.document.getElementById('flipTricksBotoesImg2')
-  flipTricksBotoesImg2.innerHTML = "<img src='./imagesArrows/seta_diagonal_cima_direita.png' width='25'>";
-  flipTricksBotoesImg2.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 3 */
-  var nomeFlipsTricks3 = window.document.getElementById('nomeFlipsTricks3')
-  nomeFlipsTricks3.innerHTML = '<strong>HeelFlip</strong>'
-
-  var flipTricksBotoesImg3 = window.document.getElementById('flipTricksBotoesImg3')
-  flipTricksBotoesImg3.innerHTML = "<img src='./imagesArrows/seta_direita_laranja.png' width='25'>";
-  flipTricksBotoesImg3.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 4 */
-  var nomeFlipsTricks4 = window.document.getElementById('nomeFlipsTricks4')
-  nomeFlipsTricks4.innerHTML = '<strong>Varial HeelFlip</strong>'
-
-  var flipTricksBotoesImg4 = window.document.getElementById('flipTricksBotoesImg4')
-  flipTricksBotoesImg4.innerHTML = "<img src='./imagesArrows/seta_diagonal_baixo_direita.png' width='25'>";
-  flipTricksBotoesImg4.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 5 */
-  var nomeFlipsTricks5 = window.document.getElementById('nomeFlipsTricks5')
-  nomeFlipsTricks5.innerHTML = '<strong>FS Shove It</strong>'
-
-  var flipTricksBotoesImg5 = window.document.getElementById('flipTricksBotoesImg5')
-  flipTricksBotoesImg5.innerHTML = "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  flipTricksBotoesImg5.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 6 */
-  var nomeFlipsTricks6 = window.document.getElementById('nomeFlipsTricks6')
-  nomeFlipsTricks6.innerHTML = '<strong>Varial KickFlip</strong>'
-
-  var flipTricksBotoesImg6 = window.document.getElementById('flipTricksBotoesImg6')
-  flipTricksBotoesImg6.innerHTML = "<img src='./imagesArrows/seta_diagonal_baixo_esquerda.png' width='25'>";
-  flipTricksBotoesImg6.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 7 */
-  var nomeFlipsTricks7 = window.document.getElementById('nomeFlipsTricks7')
-  nomeFlipsTricks7.innerHTML = '<strong>KickFlip</strong>'
-
-  var flipTricksBotoesImg7 = window.document.getElementById('flipTricksBotoesImg7')
-  flipTricksBotoesImg7.innerHTML = "<img src='./imagesArrows/seta_esquerda_laranja.png' width='25'>";
-  flipTricksBotoesImg7.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 8 */
-  var nomeFlipsTricks8 = window.document.getElementById('nomeFlipsTricks8')
-  nomeFlipsTricks8.innerHTML = '<strong>HardFlip</strong>'
-
-  var flipTricksBotoesImg8 = window.document.getElementById('flipTricksBotoesImg8')
-  flipTricksBotoesImg8.innerHTML = "<img src='./imagesArrows/seta_diagonal_cima_esquerda.png' width='25'>";
-  flipTricksBotoesImg8.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 9 */
-  var nomeFlipsTricks9 = window.document.getElementById('nomeFlipsTricks9')
-  nomeFlipsTricks9.innerHTML = '<strong>360 Shove It</strong>'
-
-  var flipTricksBotoesImg9 = window.document.getElementById('flipTricksBotoesImg9')
-  flipTricksBotoesImg9.innerHTML = "<img src='./imagesArrows/seta_cima_laranja.png' width='25'>";
-  flipTricksBotoesImg9.innerHTML += "<img src='./imagesArrows/seta_cima_laranja.png' width='25'>";
-  flipTricksBotoesImg9.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-  /* Flip Tricks 10 */
-  var nomeFlipsTricks10 = window.document.getElementById('nomeFlipsTricks10')
-  nomeFlipsTricks10.innerHTML = '<strong>360 Flip</strong>'
-
-  var flipTricksBotoesImg10 = window.document.getElementById('flipTricksBotoesImg10')
-  flipTricksBotoesImg10.innerHTML = "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  flipTricksBotoesImg10.innerHTML += "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  flipTricksBotoesImg10.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
-
-////////////////////////////////////////////////////////////////////////////////////////////
-
-  /* Grab Tricks */
-  /* Título Grab Tricks*/
-  var grabTricks = window.document.getElementById('grabTricks')
-  grabTricks.innerHTML = 'Grab Tricks<br>'
-
-  /* Grab Tricks 1 */
-  var nomeGrabTricks = window.document.getElementById('nomeGrabTricks')
-  nomeGrabTricks.innerHTML = '<strong>NoseGrab</strong>'
-
-  var grabTricksBotoesImg = window.document.getElementById('grabTricksBotoesImg')
-  grabTricksBotoesImg.innerHTML = "<img src='./imagesArrows/seta_cima_laranja.png' width='25'>";
-  grabTricksBotoesImg.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-  /* Grab Tricks 2 */
-  var nomeGrabTricks2 = window.document.getElementById('nomeGrabTricks2')
-  nomeGrabTricks2.innerHTML = '<strong>Mute</strong>'
-
-  var grabTricksBotoesImg2 = window.document.getElementById('grabTricksBotoesImg2')
-  grabTricksBotoesImg2.innerHTML = "<img src='./imagesArrows/seta_diagonal_cima_direita.png' width='25'>";
-  grabTricksBotoesImg2.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-  /* Grab Tricks 3 */
-  var nomeGrabTricks3 = window.document.getElementById('nomeGrabTricks3')
-  nomeGrabTricks3.innerHTML = '<strong>Indy</strong>'
-
-  var grabTricksBotoesImg3 = window.document.getElementById('grabTricksBotoesImg3')
-  grabTricksBotoesImg3.innerHTML = "<img src='./imagesArrows/seta_direita_laranja.png' width='25'>";
-  grabTricksBotoesImg3.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-  /* Grab Tricks 4 */
-  var nomeGrabTricks4 = window.document.getElementById('nomeGrabTricks4')
-  nomeGrabTricks4.innerHTML = '<strong>RoastBeef</strong>'
-
-  var grabTricksBotoesImg4 = window.document.getElementById('grabTricksBotoesImg4')
-  grabTricksBotoesImg4.innerHTML = "<img src='./imagesArrows/seta_diagonal_baixo_direita.png' width='25'>";
-  grabTricksBotoesImg4.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-  /* Grab Tricks 5 */
-  var nomeGrabTricks5 = window.document.getElementById('nomeGrabTricks5')
-  nomeGrabTricks5.innerHTML = '<strong>TailGrab</strong>'
-
-  var grabTricksBotoesImg5 = window.document.getElementById('grabTricksBotoesImg5')
-  grabTricksBotoesImg5.innerHTML = "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  grabTricksBotoesImg5.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-  /* Grab Tricks 6 */
-  var nomeGrabTricks6 = window.document.getElementById('nomeGrabTricks6')
-  nomeGrabTricks6.innerHTML = '<strong>Benihana</strong>'
-
-  var grabTricksBotoesImg6 = window.document.getElementById('grabTricksBotoesImg6')
-  grabTricksBotoesImg6.innerHTML = "<img src='./imagesArrows/seta_diagonal_baixo_esquerda.png' width='25'>";
-  grabTricksBotoesImg6.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-  /* Grab Tricks 7 */
-  var nomeGrabTricks7 = window.document.getElementById('nomeGrabTricks7')
-  nomeGrabTricks7.innerHTML = '<strong>Melon</strong>'
-
-  var grabTricksBotoesImg7 = window.document.getElementById('grabTricksBotoesImg7')
-  grabTricksBotoesImg7.innerHTML = "<img src='./imagesArrows/seta_esquerda_laranja.png' width='25'>";
-  grabTricksBotoesImg7.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-  /* Grab Tricks 8 */
-  var nomeGrabTricks8 = window.document.getElementById('nomeGrabTricks8')
-  nomeGrabTricks8.innerHTML = '<strong>CrossBone</strong>'
-
-  var grabTricksBotoesImg8 = window.document.getElementById('grabTricksBotoesImg8')
-  grabTricksBotoesImg8.innerHTML = "<img src='./imagesArrows/seta_diagonal_cima_esquerda.png' width='25'>";
-  grabTricksBotoesImg8.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
-
-////////////////////////////////////////////////////////////////////////////////////////////
-
-  /* Lip Tricks */
-  /* Título Lip Tricks*/
-  var lipTricks = window.document.getElementById('lipTricks')
-  lipTricks.innerHTML = 'Lip Tricks<br>'
-
-  /* Lip Tricks 1 */
-  var nomeLipTricks = window.document.getElementById('nomeLipTricks')
-  nomeLipTricks.innerHTML = '<strong>Nosestall</strong>'
-
-  var lipTricksBotoesImg = window.document.getElementById('lipTricksBotoesImg')
-  lipTricksBotoesImg.innerHTML = "<img src='./imagesArrows/seta_cima_laranja.png' width='25'>";
-  lipTricksBotoesImg.innerHTML += "<img src='./imagesBotoesPsOne/botaoTriangulo.png' width='25'>";
-
-  /* Lip Tricks 2 */
-  var nomeLipTricks2 = window.document.getElementById('nomeLipTricks2')
-  nomeLipTricks2.innerHTML = '<strong>Axle Stall</strong>'
-
-  var lipTricksBotoesImg2 = window.document.getElementById('lipTricksBotoesImg2')
-  lipTricksBotoesImg2.innerHTML = "<img src='./imagesArrows/seta_direita_laranja.png' width='25'>";
-  lipTricksBotoesImg2.innerHTML += "<img src='./imagesBotoesPsOne/botaoTriangulo.png' width='25'>";
-
-  /* Lip Tricks 3 */
-  var nomeLipTricks3 = window.document.getElementById('nomeLipTricks3')
-  nomeLipTricks3.innerHTML = '<strong>Rock N Roll</strong>'
-
-  var lipTricksBotoesImg3 = window.document.getElementById('lipTricksBotoesImg3')
-  lipTricksBotoesImg3.innerHTML = "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  lipTricksBotoesImg3.innerHTML += "<img src='./imagesBotoesPsOne/botaoTriangulo.png' width='25'>";
-
-  /* Lip Tricks 4 */
-  var nomeLipTricks4 = window.document.getElementById('nomeLipTricks4')
-  nomeLipTricks4.innerHTML = '<strong>Disaster</strong>'
-
-  var lipTricksBotoesImg4 = window.document.getElementById('lipTricksBotoesImg4')
-  lipTricksBotoesImg4.innerHTML = "<img src='./imagesArrows/seta_esquerda_laranja.png' width='25'>";
-  lipTricksBotoesImg4.innerHTML += "<img src='./imagesBotoesPsOne/botaoTriangulo.png' width='25'>";
+  var papel1=window.document.getElementById('papel1')
+  papel1.innerHTML = '<strong>Additional Desgin</strong>'
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////
+  /* Game 2 */
+  var jogosCreditados=window.document.getElementById('game2')
+  jogosCreditados.innerHTML = 'Tony Hawks Pro Skater 3 (2001 on GameCube)'
 
-  /* Título Especiais*/
-  var especiais = window.document.getElementById('especiais')
-  especiais.innerHTML = 'Especiais<br>'
+  var papel2=window.document.getElementById('papel2')
+  papel2.innerHTML = 'In alphabetical order'
 
-  /* Especial 1 */
-  var nomeEspecias = window.document.getElementById('nomeEspecias')
-  nomeEspecias.innerHTML = '<strong>Nosegrind to Pivot</strong>'
 
-  var especiaisBotoesImg = window.document.getElementById('especiaisBotoesImg')
-  especiaisBotoesImg.innerHTML = "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  especiaisBotoesImg.innerHTML += "<img src='./imagesArrows/seta_cima_laranja.png' width='25'>";
-  especiaisBotoesImg.innerHTML += "<img src='./imagesBotoesPsOne/botaoTriangulo.png' width='25'>";
+  /* Game 3 */
+  var jogosCreditados=window.document.getElementById('game3')
+  jogosCreditados.innerHTML = 'Tony Hawks Pro Skater 2x (2001 on Xbox)'
 
-  /* Especial 2 */
-  var nomeEspecias2 = window.document.getElementById('nomeEspecias2')
-  nomeEspecias2.innerHTML = '<strong>Chetto Bird</strong>'
+  var papel3=window.document.getElementById('papel3')
+  papel3.innerHTML = 'Never-Ever-Soft Skate Team'
 
-  var especiaisBotoesImg2 = window.document.getElementById('especiaisBotoesImg2')
-  especiaisBotoesImg2.innerHTML = "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  especiaisBotoesImg2.innerHTML += "<img src='./imagesArrows/seta_cima_laranja.png' width='25'>";
-  especiaisBotoesImg2.innerHTML += "<img src='./imagesBotoesPsOne/botaoQuadrado.png' width='25'>";
+  /* Game 4 */
+  var jogosCreditados=window.document.getElementById('game4')
+  jogosCreditados.innerHTML = 'Tony Hawks Pro Skater 2 (2000 on Windows)'
 
-  /* Especial 3 */
-  var nomeEspecias3 = window.document.getElementById('nomeEspecias3')
-  nomeEspecias3.innerHTML = '<strong>Casper</strong>'
+  var papel4=window.document.getElementById('papel4')
+  papel4.innerHTML = 'Never-Ever-Soft Skate Team'
 
-  var especiaisBotoesImg3 = window.document.getElementById('especiaisBotoesImg3')
-  especiaisBotoesImg3.innerHTML = "<img src='./imagesArrows/seta_esquerda_laranja.png' width='25'>";
-  especiaisBotoesImg3.innerHTML += "<img src='./imagesArrows/seta_baixo_laranja.png' width='25'>";
-  especiaisBotoesImg3.innerHTML += "<img src='./imagesBotoesPsOne/botaoBolinha.png' width='25'>";
+  /* Game 5 */
+  var jogosCreditados=window.document.getElementById('game5')
+  jogosCreditados.innerHTML = 'Tony Hawks Pro Skater (2000 on Dreamcast)'
+
+  var papel5=window.document.getElementById('papel5')
+  papel5.innerHTML = 'Characters and Animation'
+
+  /* Game 6 */
+  var jogosCreditados=window.document.getElementById('game6')
+  jogosCreditados.innerHTML = 'Spider-Man (2000 on PlayStation)'
+
+  var papel6=window.document.getElementById('papel6')
+  papel6.innerHTML = 'Nevesoft Thanks'
+
+  /* Game 7 */
+  var jogosCreditados=window.document.getElementById('game7')
+  jogosCreditados.innerHTML = 'Apocalypse (1998 on PlayStation)'
+
+  var papel7=window.document.getElementById('papel7')
+  papel7.innerHTML = 'Artwork'
+
+  /* Game 8 */
+  var jogosCreditados=window.document.getElementById('game8')
+  jogosCreditados.innerHTML = 'MDK (1997 on PlayStation)'
+
+  var papel8=window.document.getElementById('papel8')
+  papel8.innerHTML = 'Additional Design'
+
+  /* Game 9 */
+  var jogosCreditados=window.document.getElementById('game9')
+  jogosCreditados.innerHTML = 'Skeleton Warriors (1996 on SEGA Saturn)'
+
+  var papel9=window.document.getElementById('papel9')
+  papel9.innerHTML = 'Artwork'
+
+  /* Game 10 */
+  var jogosCreditados=window.document.getElementById('game10')
+  jogosCreditados.innerHTML = 'BattleTech: A Game of Armored Combat (1995 on SNES)'
+
+  var papel10=window.document.getElementById('papel10')
+  papel10.innerHTML = 'Artists'
+
+  /* Game 11 */
+  var jogosCreditados=window.document.getElementById('game11')
+  jogosCreditados.innerHTML = 'The Adventures of Batman & Robin (1995 on SEGA CD)'
+
+  var papel11=window.document.getElementById('papel11')
+  papel11.innerHTML = 'Artists'
+
+  /* Game 12 */
+  var jogosCreditados=window.document.getElementById('game12')
+  jogosCreditados.innerHTML = 'The Adventures of Batman & Robin (1995 on Genesis)'
+
+  var papel12=window.document.getElementById('papel12')
+  papel12.innerHTML = 'Additional Artwork'
+
+  /* Game 13 */
+  var jogosCreditados=window.document.getElementById('game13')
+  jogosCreditados.innerHTML = 'Creatures (1993 on Atari ST'
+
+  var papel13=window.document.getElementById('papel13')
+  papel13.innerHTML = 'Graphics'
+
+  /* Game 14 */
+  var jogosCreditados=window.document.getElementById('game14')
+  jogosCreditados.innerHTML = 'Beastlord (1993 on Amiga)'
+
+  var papel14=window.document.getElementById('papel14')
+  papel14.innerHTML = 'Animated Sequences'
+
+  /* Game 15 */
+  var jogosCreditados=window.document.getElementById('game15')
+  jogosCreditados.innerHTML = 'Shadow of the Beast II (1992 on Genesis)'
+
+  var papel15=window.document.getElementById('papel15')
+  papel15.innerHTML = 'Graphics'
+
+  /* Game 16 */
+  var jogosCreditados=window.document.getElementById('game16')
+  jogosCreditados.innerHTML = 'Darkman (1991 on ZX Spectrum)'
+
+  var papel16=window.document.getElementById('papel16')
+  papel16.innerHTML = 'Graphics'
+
+  /* Game 17 */
+  var jogosCreditados=window.document.getElementById('game17')
+  jogosCreditados.innerHTML = 'WWF Wrestlemania (1991 on ZX Spectrum)'
+
+  var papel17=window.document.getElementById('papel17')
+  papel17.innerHTML = 'Graphics'
+
+  /* Game 18 */
+  var jogosCreditados=window.document.getElementById('game18')
+  jogosCreditados.innerHTML = 'Ork (1991 on Atari ST)'
+
+  var papel18=window.document.getElementById('papel18')
+  papel18.innerHTML = 'ST Graphics'
 
   boxInformacoesPersonagens.style.background = '#333'
   boxInformacoesPersonagens.style.padding = '5px'

@@ -6,24 +6,24 @@ function Gary(){
   var imgPersonagem = window.document.getElementById('imgPersonagem')
   imgPersonagem.innerHTML = "<img src = './imagesDevsNeversoft/garyJesdanum.jpg' width='150'>";
 
-  var nascimento = window.document.getElementById('nascimento')
-  nascimento.innerHTML = '<strong>Nascimento:</strong> ?'
+  var profissao = window.document.getElementById('profissao')
+  profissao.innerHTML = '<strong>Profissão:</strong><br>Programming Director at Neversoft'
 
-  var idade = window.document.getElementById('idade')
-  idade.innerHTML = '<strong>Idade:</strong> ?'
+  var LinkedinAaron = window.document.getElementById('linkedin')
+  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/gary-jesdanun-37ab763/" target="_blank"><strong>LinkedIn - Gary Jesdanun</strong></a>'
 
   var nacionalidade = window.document.getElementById('nacionalidade')
-  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong> Americano - Eua'
+  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong><br>Americano - Eua'
 
   var cidade = window.document.getElementById('cidade')
-  cidade.innerHTML = '<strong>Cidade:</strong> Los Angeles - Califórnia - Eua'
-
-  var profissao = window.document.getElementById('profissao')
-  profissao.innerHTML = '<strong>Profissão:</strong> Programming Director at Neversoft '
+  cidade.innerHTML = '<strong>Cidade:</strong><br> Los Angeles - Califórnia<br>Eua'
 
   var imgBandeiraRepresenta = window.document.getElementById('imgBandeiraRepresenta')
   imgBandeiraRepresenta.innerHTML = "<img src = './imagesBandeiraPaises/eua_bandeira.png' width='100'>";
   imgBandeiraRepresenta.style.marginBottom='50px';
+
+  var breveInfoDosDevs=window.document.getElementById('breveInfoDosDevs')
+  breveInfoDosDevs.innerHTML= 'Gary Jesdanun trabalhou como Diretor de Programação da Neversoft Entertainment . Antes da Neversoft, ele trabalhou para a Activision como programador de 1995 a 1999. Gary se formou na Browns University e na Rutgers Preparatory.'
 
   /* Creditos de Desenvolvimento*/
 
@@ -136,35 +136,35 @@ function Gary(){
   var jogosCreditados=window.document.getElementById('game15')
   jogosCreditados.innerHTML = 'Tony Hawks American Wasteland (2006 on Windows)'
 
-  var papel5=window.document.getElementById('papel15')
+  var papel15=window.document.getElementById('papel15')
   papel15.innerHTML = 'Development Team'
 
   /* Game 16 */
   var jogosCreditados=window.document.getElementById('game16')
   jogosCreditados.innerHTML = 'Gun (2005 on Xbox 360)'
 
-  var papel6=window.document.getElementById('papel16')
+  var papel16=window.document.getElementById('papel16')
   papel16.innerHTML = 'Development Team'
 
   /* Game 17 */
   var jogosCreditados=window.document.getElementById('game17')
   jogosCreditados.innerHTML = 'Tony Hawks American Wasteland (Collectors Edition)'
 
-  var papel7=window.document.getElementById('papel17')
+  var papel17=window.document.getElementById('papel17')
   papel17.innerHTML = 'Director of Production'
 
   /* Game 18 */
   var jogosCreditados=window.document.getElementById('game18')
   jogosCreditados.innerHTML = 'Tony Hawks Underground 2: Remix (2005 on PSP)'
 
-  var papel8=window.document.getElementById('papel18')
+  var papel18=window.document.getElementById('papel18')
   papel18.innerHTML = 'THUG2 Development Team'
 
   /* Game 19 */
   var jogosCreditados=window.document.getElementById('game19')
   jogosCreditados.innerHTML = 'Tony Hawks Underground 2 (2004 on Windows)'
 
-  var papel9=window.document.getElementById('papel19')
+  var papel19=window.document.getElementById('papel19')
   papel19.innerHTML = 'THUG 2 Development Team'
 
   /* Game 20 */
@@ -173,10 +173,6 @@ function Gary(){
 
   var papel20=window.document.getElementById('papel20')
   papel20.innerHTML = 'Neversoft Development Team'
-
-  /* LinkedIn */
-  var LinkedinAaron = window.document.getElementById('linkedin')
-  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/gary-jesdanun-37ab763/" target="_blank"><strong>LinkedIn - Gary Jesdanun</strong></a>'
 
   boxInformacoesPersonagens.style.background = '#333'
   boxInformacoesPersonagens.style.padding = '5px'

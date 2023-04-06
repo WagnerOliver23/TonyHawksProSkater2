@@ -6,20 +6,17 @@ function Joel(){
   var imgPersonagem = window.document.getElementById('imgPersonagem')
   imgPersonagem.innerHTML = "<img src = './imagesDevsNeversoft/joelJewett.jpg' width='150'>";
 
-  var nascimento = window.document.getElementById('nascimento')
-  nascimento.innerHTML = '<strong>Nascimento:</strong> ?'
-
-  var idade = window.document.getElementById('idade')
-  idade.innerHTML = '<strong>Idade:</strong> ?'
-
-  var nacionalidade = window.document.getElementById('nacionalidade')
-  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong> Americano - Eua'
-
-  var cidade = window.document.getElementById('cidade')
-  cidade.innerHTML = '<strong>Cidade:</strong> Ventura - Califórina - Eua'
-
   var profissao = window.document.getElementById('profissao')
   profissao.innerHTML = '<strong>Profissão:<br></strong> Fundador da Neversoft<br>'
+
+  var LinkedinAaron = window.document.getElementById('linkedin')
+  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/joel-jewett-a093b83a/" target="_blank"><strong>LinkedIn - Joel Jewett</strong></a>'
+
+  var nacionalidade = window.document.getElementById('nacionalidade')
+  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong><br>Americano - Eua'
+
+  var cidade = window.document.getElementById('cidade')
+  cidade.innerHTML = '<strong>Cidade:</strong><br>Ventura - Califórina<br>Eua'
 
   var imgBandeiraRepresenta = window.document.getElementById('imgBandeiraRepresenta')
   imgBandeiraRepresenta.innerHTML = "<img src = './imagesBandeiraPaises/eua_bandeira.png' width='100'>";
@@ -139,35 +136,35 @@ function Joel(){
   var jogosCreditados=window.document.getElementById('game15')
   jogosCreditados.innerHTML = 'Guitar Hero: Metallica (2009 on Wii)'
 
-  var papel5=window.document.getElementById('papel15')
+  var papel15=window.document.getElementById('papel15')
   papel15.innerHTML = 'Designed and developed by Neversoft'
 
   /* Game 16 */
   var jogosCreditados=window.document.getElementById('game16')
   jogosCreditados.innerHTML = 'Guitar Hero: Aerosmith (2008 on Windows)'
 
-  var papel6=window.document.getElementById('papel16')
+  var papel16=window.document.getElementById('papel16')
   papel16.innerHTML = 'Development Team'
 
   /* Game 17 */
   var jogosCreditados=window.document.getElementById('game17')
   jogosCreditados.innerHTML = 'Guitar Hero III: Legends of Rock (2007 on Xbox 360)'
 
-  var papel7=window.document.getElementById('papel17')
+  var papel17=window.document.getElementById('papel17')
   papel17.innerHTML = 'Developed by Neversoft'
 
   /* Game 18 */
   var jogosCreditados=window.document.getElementById('game18')
   jogosCreditados.innerHTML = 'Tony Hawks Proving Ground (2007 on PlayStation 2)'
 
-  var papel8=window.document.getElementById('papel18')
+  var papel18=window.document.getElementById('papel18')
   papel18.innerHTML = 'Additional Art, Design<br>Programming and Production '
 
   /* Game 19 */
   var jogosCreditados=window.document.getElementById('game19')
   jogosCreditados.innerHTML = 'Tony Hawks Proving Ground (2007 on PlayStation 3)'
 
-  var papel9=window.document.getElementById('papel19')
+  var papel19=window.document.getElementById('papel19')
   papel19.innerHTML = 'Designed and Developed'
 
   /* Game 20 */
@@ -176,10 +173,6 @@ function Joel(){
 
   var papel20=window.document.getElementById('papel20')
   papel20.innerHTML = 'Archangel Studio wishes to thank'
-
-  /* LinkedIn */
-  var LinkedinAaron = window.document.getElementById('linkedin')
-  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/joel-jewett-a093b83a/" target="_blank"><strong>LinkedIn - Joel Jewett</strong></a>'
 
   boxInformacoesPersonagens.style.background = '#333'
   boxInformacoesPersonagens.style.padding = '5px'

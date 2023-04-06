@@ -5,25 +5,25 @@ function Darren(){
   
     var imgPersonagem = window.document.getElementById('imgPersonagem')
     imgPersonagem.innerHTML = "<img src = './imagesDevsNeversoft/darrenThorne.png' width='150'>";
-  
-    var nascimento = window.document.getElementById('nascimento')
-    nascimento.innerHTML = '<strong>Nascimento:</strong> ?'
-  
-    var idade = window.document.getElementById('idade')
-    idade.innerHTML = '<strong>Idade:</strong> ?'
-  
+
+    var profissao = window.document.getElementById('profissao')
+    profissao.innerHTML = '<strong>Profissão:</strong><br>Freelance Artist'
+
+    var LinkedinAaron = window.document.getElementById('linkedin')
+    LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/darren-thorne-076648/" target="_blank"><strong>LinkedIn - Darren Thorne</strong></a>'
+   
     var nacionalidade = window.document.getElementById('nacionalidade')
-    nacionalidade.innerHTML = '<strong>Nacionalidade:</strong> Americano - Eua'
+    nacionalidade.innerHTML = '<strong>Nacionalidade:</strong><br>Americano - Eua'
   
     var cidade = window.document.getElementById('cidade')
-    cidade.innerHTML = '<strong>Cidade:</strong> Los Angeles - Califórnia - Eua'
-  
-    var profissao = window.document.getElementById('profissao')
-    profissao.innerHTML = '<strong>Profissão:</strong> Freelance Artist'
+    cidade.innerHTML = '<strong>Cidade:</strong><br>Los Angeles - Califórnia<br>Eua'
   
     var imgBandeiraRepresenta = window.document.getElementById('imgBandeiraRepresenta')
     imgBandeiraRepresenta.innerHTML = "<img src = './imagesBandeiraPaises/eua_bandeira.png' width='100'>";
     imgBandeiraRepresenta.style.marginBottom='50px';
+
+    var breveInfoDosDevs=window.document.getElementById('breveInfoDosDevs')
+    breveInfoDosDevs.innerHTML= 'Darren Thorne foi creditado em vários games, hoje trabalha como Freelancer morando na Califórina.'
   
     /* Creditos de Desenvolvimento*/
   
@@ -136,35 +136,35 @@ function Darren(){
     var jogosCreditados=window.document.getElementById('game15')
     jogosCreditados.innerHTML = 'Spider-Man (2001 on Windows)'
   
-    var papel5=window.document.getElementById('papel15')
+    var papel15=window.document.getElementById('papel15')
     papel15.innerHTML = 'Thanks'
   
     /* Game 16 */
     var jogosCreditados=window.document.getElementById('game16')
     jogosCreditados.innerHTML = 'Tony Hawks Pro Skater 2 (2001 on Nintendo 64)'
   
-    var papel6=window.document.getElementById('papel16')
+    var papel16=window.document.getElementById('papel16')
     papel16.innerHTML = 'Never-Ever-Soft Skate Team'
   
     /* Game 17 */
     var jogosCreditados=window.document.getElementById('game17')
     jogosCreditados.innerHTML = 'Tony Hawks Pro Skater (1999 on PlayStation)'
   
-    var papel7=window.document.getElementById('papel17')
+    var papel17=window.document.getElementById('papel17')
     papel17.innerHTML = 'Artists'
   
     /* Game 18 */
     var jogosCreditados=window.document.getElementById('game18')
     jogosCreditados.innerHTML = 'MiG-29 Fulcrum (1998 on Windows)'
   
-    var papel8=window.document.getElementById('papel18')
+    var papel18=window.document.getElementById('papel18')
     papel18.innerHTML = 'Art'
   
     /* Game 19 */
     var jogosCreditados=window.document.getElementById('game19')
     jogosCreditados.innerHTML = 'Comanche Gold (1998 on Windows)'
   
-    var papel9=window.document.getElementById('papel19')
+    var papel19=window.document.getElementById('papel19')
     papel19.innerHTML = 'Art'
   
     /* Game 20 */
@@ -173,10 +173,6 @@ function Darren(){
   
     var papel20=window.document.getElementById('papel20')
     papel20.innerHTML = 'Art'
-  
-    /* LinkedIn */
-    var LinkedinAaron = window.document.getElementById('linkedin')
-    LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/darren-thorne-076648/" target="_blank"><strong>LinkedIn - Darren Thorne</strong></a>'
 
   boxInformacoesPersonagens.style.background = '#333'
   boxInformacoesPersonagens.style.padding = '5px'

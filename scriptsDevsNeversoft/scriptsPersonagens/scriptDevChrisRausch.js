@@ -6,24 +6,24 @@ function Chris(){
   var imgPersonagem = window.document.getElementById('imgPersonagem')
   imgPersonagem.innerHTML = "<img src = './imagesDevsNeversoft/chrisRausch.jpg' width='150'>";
 
-  var nascimento = window.document.getElementById('nascimento')
-  nascimento.innerHTML = '<strong>Nascimento:</strong> ?'
+  var profissao = window.document.getElementById('profissao')
+  profissao.innerHTML = '<strong>Profissão:</strong><br>Creative and Designer Director'
 
-  var idade = window.document.getElementById('idade')
-  idade.innerHTML = '<strong>Idade:</strong> ?'
+  var LinkedinAaron = window.document.getElementById('linkedin')
+  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/teamchicken/" target="_blank"><strong>LinkedIn - Chris Rausch</strong></a>'
 
   var nacionalidade = window.document.getElementById('nacionalidade')
-  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong> Americano - Eua'
+  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong><br>Americano<br>Eua'
 
   var cidade = window.document.getElementById('cidade')
-  cidade.innerHTML = '<strong>Cidade:</strong> Brea - Califórnia - Eua'
-
-  var profissao = window.document.getElementById('profissao')
-  profissao.innerHTML = '<strong>Profissão:</strong> Creative and Designer Director'
+  cidade.innerHTML = '<strong>Cidade:</strong><br>Brea - Califórnia<br>Eua'
 
   var imgBandeiraRepresenta = window.document.getElementById('imgBandeiraRepresenta')
   imgBandeiraRepresenta.innerHTML = "<img src = './imagesBandeiraPaises/eua_bandeira.png' width='100'>";
   imgBandeiraRepresenta.style.marginBottom='50px';
+
+  var breveInfoDosDevs=window.document.getElementById('breveInfoDosDevs')
+  breveInfoDosDevs.innerHTML= 'Chris Rausch começou na Virgin Interactive Entertainment em 1993. Ele foi membro fundador da franquia Tony Hawks Pro Skater na Neversoft Entertainment em 1999. Ele é coproprietário/cofundador da SuperVillain Studios .'
 
   /* Creditos de Desenvolvimento*/
 
@@ -143,28 +143,28 @@ function Chris(){
   var jogosCreditados=window.document.getElementById('game16')
   jogosCreditados.innerHTML = 'Tony Hawks Underground 2 (2004 on Windows)'
 
-  var papel6=window.document.getElementById('papel16')
+  var papel16=window.document.getElementById('papel16')
   papel16.innerHTML = 'Supervillian Studios Team'
 
   /* Game 17 */
   var jogosCreditados=window.document.getElementById('game17')
   jogosCreditados.innerHTML = 'Tony Hawks Underground (2003 on GameCube)'
 
-  var papel7=window.document.getElementById('papel17')
+  var papel17=window.document.getElementById('papel17')
   papel17.innerHTML = 'Neversoft Development Team'
 
   /* Game 18 */
   var jogosCreditados=window.document.getElementById('game18')
   jogosCreditados.innerHTML = 'Tony Hawks Pro Skater 4 (2003 on Windows)'
 
-  var papel8=window.document.getElementById('papel18')
+  var papel18=window.document.getElementById('papel18')
   papel18.innerHTML = 'Neversoft THPS4 Team'
 
   /* Game 19 */
   var jogosCreditados=window.document.getElementById('game19')
   jogosCreditados.innerHTML = 'Tony Hawks Pro Skater 3 (2002 on Nintendo 64)'
 
-  var papel9=window.document.getElementById('papel19')
+  var papel19=window.document.getElementById('papel19')
   papel19.innerHTML = 'The Neversoft THPS3 Team'
 
   /* Game 20 */
@@ -173,10 +173,6 @@ function Chris(){
 
   var papel20=window.document.getElementById('papel20')
   papel20.innerHTML = 'Special Thanks'
-
-  /* LinkedIn */
-  var LinkedinAaron = window.document.getElementById('linkedin')
-  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/teamchicken/" target="_blank"><strong>LinkedIn - Chris Rausch</strong></a>'
 
   boxInformacoesPersonagens.style.background = '#222'
   boxInformacoesPersonagens.style.padding = '5px'

@@ -1,4 +1,17 @@
+
 function Aaron(){
+
+  boxInformacoesPersonagens.style.background= '#111'
+  boxInformacoesPersonagens.style.padding = '5px'
+
+  var boxInfoDosDevs = window.document.getElementById('boxInfoDosDevs')
+  boxInfoDosDevs.style.background="#129"
+
+  var allGamesCriados = window.document.getElementById('allGamesCriados')
+  allGamesCriados.style.background='#000'
+
+  var up = window.document.getElementById('up')
+  up.innerHTML = 'Up'
 
   var nomePersonagem = window.document.getElementById('nomePersonagem')
   nomePersonagem.innerHTML = '<strong>Aaron Cammarata</strong>'
@@ -6,24 +19,24 @@ function Aaron(){
   var imgPersonagem = window.document.getElementById('imgPersonagem')
   imgPersonagem.innerHTML = "<img src = './imagesDevsNeversoft/aaronCammarata.jpg' width='150'>";
 
-  var nascimento = window.document.getElementById('nascimento')
-  nascimento.innerHTML = '<strong>Nascimento:</strong> 22 de Dezembro de ?'
+  var profissao = window.document.getElementById('profissao')
+  profissao.innerHTML = '<strong>Profissão:</strong><br>Staff Software Enginner'
 
-  var idade = window.document.getElementById('idade')
-  idade.innerHTML = '<strong>Idade:</strong> ? anos (2023)'
+  var LinkedinAaron = window.document.getElementById('linkedin')
+  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/aaron-cammarata-12bb5b/" target="_blank"><strong>LinkedIn - Aaron Cammarata</strong></a>'
 
   var nacionalidade = window.document.getElementById('nacionalidade')
-  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong> Americano';
+  nacionalidade.innerHTML = '<strong>Nacionalidade:</strong><br>Americano<br>Eua';
 
   var cidade = window.document.getElementById('cidade')
-  cidade.innerHTML = '<strong>Cidade:</strong> Mountain View - Califórnia - Eua'
+  cidade.innerHTML = '<strong>Cidade:</strong><br>Mountain View - Califórnia<br>Eua'
 
-  var profissao = window.document.getElementById('profissao')
-  profissao.innerHTML = '<strong>Profissão:</strong> Staff Software Enginner'
-  
   var imgBandeiraRepresenta = window.document.getElementById('imgBandeiraRepresenta')
   imgBandeiraRepresenta.innerHTML = "<img src = './imagesBandeiraPaises/eua_bandeira.png' width='100'>";
   imgBandeiraRepresenta.style.marginBottom='50px';
+
+  var breveInfoDosDevs=window.document.getElementById('breveInfoDosDevs')
+  breveInfoDosDevs.innerHTML= 'Aaron desenvolve jogos desde 1995, para Pc, PsOne, Ps2, Game Cube, Xbox, Psp .. desenvolvedor, engenheiro de software, designer de games, mobile e tem uma experiência enorme como Diretor, Ceo, em Projetos grandes de games. '
 
   /* Creditos de Desenvolvimento*/
 
@@ -136,17 +149,7 @@ function Aaron(){
   var jogosCreditados=window.document.getElementById('game15')
   jogosCreditados.innerHTML = 'Interstate 76 (1997 no Windows)'
 
-  var papel3=window.document.getElementById('papel15')
+  var papel15=window.document.getElementById('papel15')
   papel15.innerHTML = 'Additional Voices'
-
-  boxInformacoesPersonagens.style.background = '#333'
-  boxInformacoesPersonagens.style.padding = '5px'
-
-  /* LinkedIn */
-  var LinkedinAaron = window.document.getElementById('linkedin')
-  LinkedinAaron.innerHTML = '<a href ="https://www.linkedin.com/in/aaron-cammarata-12bb5b/" target="_blank"><strong>LinkedIn - Aaron Cammarata</strong></a>'
-
-  var up = window.document.getElementById('up')
-  up.innerHTML = 'Up'
 
 }
