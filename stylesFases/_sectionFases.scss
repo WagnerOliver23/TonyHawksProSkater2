@@ -17,15 +17,34 @@
         border-radius: 8px;
         padding: 15px;
       }
-      .boxCadaBlocoDeFases:nth-of-type(1){
-        margin-top: 20px;
+        .boxCadaBlocoDeFases:nth-of-type(1){
+          margin-top: 20px;
+        }
+        .boxCadaBlocoDeFases .boxImgObjetivosFases{
+          text-align: center;
+        }
+        .boxCadaBlocoDeFases .boxObjetivos{
+          background-color: #222;
+          padding: 10px 0 20px 0;
+          border-radius: 10px;
+          box-shadow: 1px 1px 10px rgb(139, 107, 0);
+          margin-top: 30px;
+          margin-bottom: 15px;
+        }
+      summary{
+        list-style-type: none;
+        cursor: pointer;
       }
       h2{
         text-align: center;
         font-size: 30px;
         color: rgb(204, 86, 18);
         margin-top: 0;
+        transition: ease-in-out 500ms;
       }
+        h2:hover{
+          color: rgb(204, 123, 18);
+        }
       p{
         text-align: center;
         font-size: 23px;
