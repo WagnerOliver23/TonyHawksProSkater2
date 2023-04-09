@@ -94,7 +94,6 @@
       .boxObjetivos .boxImageObjetivoNomeObjetivoGameplay{
         background-color: #000;
         box-shadow: 1px 1px 10px #56029b;
-
         border-radius: 50%;
         padding: 20px;
         width: 80%;
@@ -173,6 +172,15 @@
             animation-delay: 0;
             animation-iteration-count: infinite;
           }
+          .boxImgHallPasses img{
+            margin: auto;
+            margin-left: 47%;
+            margin-bottom: 5px;
+            animation-name: girar;
+            animation-duration: 5s;
+            animation-delay: 0;
+            animation-iteration-count: infinite;
+          }
           .boxImgFindTheSecretTape img{
             margin: auto;
             margin-left: 42%;
@@ -191,6 +199,41 @@
           }
           .boxImgCashs img{
             animation-name: girar;
+            animation-duration: 5s;
+            animation-delay: 0;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+          }
+          .moedaOuroCompeticao{
+            position: absolute;
+            margin-left: 140px;
+            margin-top: -35px;
+            width: 30px;
+            animation-name: girar;
+            animation-duration: 5s;
+            animation-delay: 0;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+          }
+          .moedaPrataCompeticao{
+            position: absolute;
+            margin-left: 140px;
+            margin-top: -35px;
+            width: 30px;
+            animation-name: girar;
+            animation-delay: 0.25s;
+            animation-duration: 5s;
+            animation-delay: 0;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+          }
+          .moedaBronzeCompeticao{
+            position: absolute;
+            margin-left: 140px;
+            margin-top: -35px;
+            width: 30px;
+            animation-name: girar;
+            animation-delay: 0.5s;
             animation-duration: 5s;
             animation-delay: 0;
             animation-iteration-count: infinite;
@@ -327,6 +370,7 @@
         width: 100%;
         margin-left:0%;
         border-radius: 10px;
+        cursor: pointer;
       }
       #buttonUp{
         position: sticky;
