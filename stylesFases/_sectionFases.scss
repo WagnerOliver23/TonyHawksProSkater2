@@ -11,6 +11,14 @@
   .boxCadaBlocoDeFases h2{
     font-family: 'Prompt', sans-serif;
   }
+      a{
+        color: rgb(243, 163, 14);
+        text-decoration: none;
+        transition: ease-in-out 500ms;
+      }
+          a:hover{
+            color: rgb(243, 136, 14);
+          }
       h1{
         font-size: 35px;
         text-align: center;
@@ -204,6 +212,33 @@
             animation-iteration-count: infinite;
             animation-direction: alternate;
           }
+          .boxImgHydrant img{
+            margin: auto;
+            margin-left: 48%;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            animation-name: hydrant;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+          }
+              @keyframes hydrant{
+                0%  {transform: skew(0deg);}
+                10%{transform: translateY(2%);}
+                20% {transform: skew(20deg);}
+                40% {transform: skew(0deg);}
+                50%{transform: translateY(-2%);}
+                60% {transform: skew(-20deg);}
+                100%{transform: skew(0deg);}
+              }
+          .boxImgSubwayTokens img{
+            margin: auto;
+            margin-left: 46%;
+            animation-name: girar;
+            animation-duration: 5s;
+            animation-delay: 0;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+          }
           .moedaOuroCompeticao{
             position: absolute;
             margin-left: 140px;
@@ -344,10 +379,15 @@
           .boxObjetivos .comoFazerOjetivo{
             color: rgb(104, 190, 24);
             text-transform: uppercase;
-            font-size: 18px;
+            font-size: 20px;
+            margin-top: 3px;
+            text-transform:none;
           }
           .boxObjetivos .sinalDeMaisObjetivos{
             color: rgb(29, 190, 24);
+          }
+          .boxObjetivos .comoFazerOjetivo img{
+            position:absolute;
           }
       .pointsScoreObjetivos{
         color: rgb(255, 187, 0);
